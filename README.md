@@ -6,6 +6,14 @@ A deep learning-based computer vision project for **pixel-level skin lesion segm
 
 ---
 
+## Live Demo
+
+Try the deployed Streamlit app here:
+
+https://huggingface.co/spaces/asibul60/skin-lesion-segmentation-unet
+
+The app allows users to upload dermoscopic skin lesion images and view the predicted segmentation mask and overlay visualization.
+
 ## Project Overview
 
 Skin lesion segmentation is a semantic segmentation task where the goal is to identify the exact pixels that belong to a lesion region in a skin image.
@@ -153,6 +161,19 @@ streamlit run app/app.py
 
 Open the local Streamlit URL in your browser and upload a dermoscopic skin lesion image.
 
+```markdown
+## Deployment
+
+The app is deployed on Hugging Face Spaces using Streamlit.
+
+Deployment files include:
+
+```text
+streamlit_app.py
+requirements.txt
+src/utils.py
+models/unet_skin_lesion.keras
+
 Running Prediction Script
 
 To run prediction on a sample image:
@@ -199,7 +220,6 @@ Add a separate test set evaluation
 Add IoU metric during training
 Compare U-Net with DeepLabV3+ or Attention U-Net
 Add data augmentation
-Deploy the app on Hugging Face Spaces
 Add Grad-CAM or explainability visualizations
 Disclaimer
 
