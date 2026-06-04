@@ -161,14 +161,12 @@ streamlit run app/app.py
 
 Open the local Streamlit URL in your browser and upload a dermoscopic skin lesion image.
 
-```markdown
 ## Deployment
 
 The app is deployed on Hugging Face Spaces using Streamlit.
 
 Deployment files include:
 
-```text
 streamlit_app.py
 requirements.txt
 src/utils.py
