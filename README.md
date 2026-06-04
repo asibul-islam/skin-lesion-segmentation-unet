@@ -6,13 +6,10 @@ A deep learning-based computer vision project for **pixel-level skin lesion segm
 
 ---
 
-## Live Demo
+## Links
 
-Try the deployed Streamlit app here:
-
-https://huggingface.co/spaces/asibul60/skin-lesion-segmentation-unet
-
-The app allows users to upload dermoscopic skin lesion images and view the predicted segmentation mask and overlay visualization.
+- Live App: https://huggingface.co/spaces/asibul60/skin-lesion-segmentation-unet
+- Dataset: https://www.kaggle.com/datasets/tschandl/isic2018-challenge-task1-data-segmentation
 
 ## Project Overview
 
